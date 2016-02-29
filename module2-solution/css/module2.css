@@ -1,15 +1,44 @@
+
+@media (min-width: 992px){
+	div.item1{
+		float:left;
+		width:33%;
+
+		border-style: solid;
+    border-width: 1px, 1px, 1px, 1px;
+	}
+
+	div.item2, div.item3{
+		width:33%;
+	float:right;
+	border-style: solid;
+    border-width: 1px, 1px, 1px, 1px;
+}
+}
+
+div.item1, div.item2, div.item3{
+	border-style: solid;
+    border-width: 1px, 1px, 1px, 1px;
+}
+
 div.chicken{
   color:pink;
 }
 
 div.beef{
   color:red;
+  
 }
 
 div.sushi{
   color:blue;
+  
 }
 
 h1{
   text-align:center;
+}
+
+h2{
+	text-align:right;
 }
