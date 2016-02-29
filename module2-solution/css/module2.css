@@ -2,43 +2,118 @@
 @media (min-width: 992px){
 	div.item1{
 		float:left;
-		width:33%;
+		width:32%;
 
-		border-style: solid;
-    border-width: 1px, 1px, 1px, 1px;
 	}
 
-	div.item2, div.item3{
-		width:33%;
-	float:right;
-	border-style: solid;
-    border-width: 1px, 1px, 1px, 1px;
+div.item2{
+		float:left;
+		width:32%;
+
+	}
+
+	div.item3{
+		width:32%;
+	float:left;
+	
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	div.item1{
+		float:left;
+		width:48%;
+
+	}
+
+div.item2{
+		float:right;
+		width:48%;
+
+	}
+
+	div.item3{
+		width:99%;
+	float:left;
+	
+}
+}
+
+@media (max-width: 767px){
+	div.item1{
+		float:left;
+		width:99%;
+
+	}
+
+div.item2{
+		float:left;
+		width:99%;
+
+	}
+
+	div.item3{
+		width:99%;
+	float:left;
+	
 }
 }
 
 div.item1, div.item2, div.item3{
+	box-sizing: border-box;
+	background-color:gray;
+	padding: 5px;
+	margin: 5px;
 	border-style: solid;
     border-width: 1px, 1px, 1px, 1px;
+    position: relative;
 }
 
 div.chicken{
-  color:pink;
+  display:inline-flex;
+  background-color:purple;
+  position:absolute;
+  float:right;
+  top:0px;
+  right:0px;
+  text-align:right;
+ 
+  padding: 10px;
+
+ 
 }
 
 div.beef{
-  color:red;
+	display:inline-block;
+  background-color:red;
+  position:absolute;
+  top:0px;
+  right:0px;
+  text-align:right;
+  float:right;
+ 
+  padding: 10px;
   
 }
 
 div.sushi{
-  color:blue;
-  
+	display:inline-block;
+  background-color:yellow;
+  position:absolute;
+  top:0px;
+  right:0px;
+  text-align:right;
+  float:right;
+ 
+ 
+    padding: 10px;
+ 
 }
 
 h1{
   text-align:center;
 }
 
-h2{
-	text-align:right;
+p{
+	 margin-top: 35px; 
 }
